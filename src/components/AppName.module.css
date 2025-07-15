@@ -1,0 +1,9 @@
+.todoHeading {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 45px;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 25px;
+  text-align: center;
+}

@@ -1,22 +1,6 @@
-h1{
-    font-weight: 700;
-    font-style: italic;
-    font-size: 45px;
-    margin: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 25px;
-    text-align: center;
+.todo-container {
+  text-align: left;
 }
-input{
-    width: 100%;
-}
-.todo-container{
-    text-align: left;
-}
-
-.myRow{
-    margin-bottom: 30px;
-}
-.myButton{
-    min-width: 80px;
+input {
+  width: 100%;
 }
