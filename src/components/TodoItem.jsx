@@ -1,7 +1,7 @@
 import style from "./TodoItem.module.css";
 function TodoItem({ todoname, todoDate }) {
   return (
-    <div>
+    <>
       <div className={`${style.myRow} row`}>
         <div className="col-6">{todoname}</div>
         <div className="col-4">{todoDate}</div>
@@ -11,7 +11,7 @@ function TodoItem({ todoname, todoDate }) {
           </button>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
