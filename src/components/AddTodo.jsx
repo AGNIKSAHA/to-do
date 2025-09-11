@@ -1,4 +1,5 @@
 import style from "./AddTodo.module.css";
+import { IoIosAddCircleOutline } from "react-icons/io";
 import { useState } from "react";
 function AddTodo({ onNewItem }) {
   const [todoName, setTodoName] = useState("");
@@ -33,7 +34,7 @@ function AddTodo({ onNewItem }) {
           className={`${style.myButton} btn btn-success`}
           onClick={handleAddButtonClicked}
         >
-          Add
+          <IoIosAddCircleOutline />
         </button>
       </div>
     </div>
